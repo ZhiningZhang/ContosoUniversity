@@ -24,12 +24,16 @@ namespace ContosoUniversity.Pages.Students
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
 
+        public string MyName { get; set; }
+
         //public IList<Student> Students { get;set; }
 
         public PaginatedList<Student> Students { get; set; }
 
         public async Task OnGetAsync(string sortOrder, string currentFilter, string searchString, int? pageIndex)
         {
+            MyName = "Andy Zhang";
+
             CurrentSort = sortOrder;
 
             NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";

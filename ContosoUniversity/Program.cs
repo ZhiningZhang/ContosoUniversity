@@ -24,6 +24,12 @@ namespace ContosoUniversity
             host.Run();
         }
 
+        //https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-3.1&tabs=visual-studio
+        //zzzzz?
+        // host -> Services ->scope -> service provider -> context
+
+        //Background tasks with hosted services in ASP.NET Core
+        //https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-3.1&tabs=visual-studio
         private static void CreateDbIfNotExists(IHost host)
         {
             using (var scope = host.Services.CreateScope())

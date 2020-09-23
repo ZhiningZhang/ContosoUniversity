@@ -2,3 +2,12 @@
 EF Core with Razor Pages
 https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-3.1&tabs=visual-studio
 
+
+Background tasks with hosted services in ASP.NET Core
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-3.1&tabs=visual-studio
+
+---
+Anchor Tag Helper in ASP.NET Core
+https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/built-in/anchor-tag-helper?view=aspnetcore-3.1
+asp-route-{value}
+
